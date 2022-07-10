@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./src/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="./src/img/medal-solid.svg">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <title>Quadro de Medalhas</title>
+</head>
+
+<body>
+    <header>
+        <img src="./src/img/Group 187.png" alt="Logo KenzieLempiadas">
+    </header>
+    <div class="container">
+       <div class="table--head">
+     <section>
+        <div >              
+            <div class="container---pesquisa">
+                <h3>Pesquisa</h3>
+                <div class="pesquisa">
+                    <input id="campo-pesquisa" type="text" placeholder="Pesquisar por país">
+                    <button id="btnPesquisa" type="submit"> <i class="fa-solid fa-magnifying-glass"></i> Pesquisa</button>
+                </div>
+                <span>Ex Brasil</span>
+            </div>     
+        </div>
+       <div class="scroll">
+        <table>
+            <thead id="table-head-liner">
+                <td class="linhaHead"><select id="posicao">
+                        <option value="posicao">Posição</option>
+                        <option value="ordernarMaior">Ornedar ultimos</option>
+                        <option value="ordenarMenor">Ordenar primerios</option>
+                    </select>
+                </td>
+                <td class="linhaHead" id="pais">
+                    País
+                </td>
+                <td class="linhaHead" ><select id="Ouro">
+                        <option value="ouro">Ouro</option>
+                        <option value="ordernarMaior">Mais medalhas de Ouro</option>
+                        <option value="ordenarMenor">Menos medalhas de ouro</option>
+
+                    </select>
+                </td>
+                <td class="linhaHead" ><select id="prata">
+                        <option value="prata">Prata</option>
+                        <option value="ordernarMaior">Mais medalhas de Prata</option>
+                        <option value="ordenarMenor">Menos medalhas de Prata</option>
+
+                    </select></td>
+                </td>
+                <td class="linhaHead" ><select id="bronze">
+                        <option value="bronze">Bronze</option>
+                        <option value="ordernarMaior">Mais medalhas de Bronze</option>
+                        <option value="ordenarMenor">Menos medalhas de Bronze</option>
+
+                    </select></td>
+                <td class="linhaHead">Total</td>
+
+            </thead>
+            <tbody></tbody>
+          
+        </table>
+       </div>
+     </section>
+    
+       </div>
+
+    </div>
+    <script type="module" src="./src/js/script.js"></script>
+</body>
+
+</html>
