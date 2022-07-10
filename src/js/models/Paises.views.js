@@ -31,10 +31,10 @@ class Paises {
     }
 
     static pesquisaPais(lista) {
-        const input = document.querySelector("#campo-pesquisa")        
+        const input = document.querySelector("#campo-pesquisa")              
 
-        const paisPesquisado = lista.filter(({country}) => {
-            return country === input.value;
+        const paisPesquisado = lista.filter(({country}) => {                     
+            return country.toUpperCase().includes(input.value.toUpperCase()) ;
         })       
         
             tbody.innerText = ""
