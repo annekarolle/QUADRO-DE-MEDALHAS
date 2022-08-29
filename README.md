@@ -6,13 +6,7 @@ Nessa atividade, você vai construir um quadro para exibir as medalhas dos 15 pa
 
 Sua aplicação irá exibir a quantidade de medalhas de ouro, prata e bronze de cada país, além da soma total de totas as medalhas!
 
-Você pode utilizar o seguinte layout como base para a estilização do seu app. [Clique aqui](https://www.figma.com/file/9ck8OxFkUTtx2DBtzffO4L/M2---Sprint1---Olimp%C3%ADadas-HTML---CSS---JS?node-id=0%3A1) para acessar o figma!
 
-Veja um preview abaixo:
-
-<figure>
-    <img src="./src/img/Home.png" alt="Preview layout">
-</figure>
 
 ## Tarefas
 
