@@ -1,4 +1,4 @@
-Quadro de Medalhas
+###Quadro de Medalhas
 
 Nessa atividade, construi um quadro para exibir as medalhas dos 15 países que mais tiveram vitórias nas competições das Olimpíadas.
 
