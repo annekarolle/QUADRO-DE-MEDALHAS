@@ -2,7 +2,6 @@
 
 Nessa atividade, construi um quadro para exibir as medalhas dos 15 países que mais tiveram vitórias nas competições das Olimpíadas.
 
-Sua aplicação irá exibir a quantidade de medalhas de ouro, prata e bronze de cada país, além da soma total de totas as medalhas!
 
 
  implementar as seguintes funcionalidades:
